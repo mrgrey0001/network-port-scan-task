@@ -1,0 +1,62 @@
+# Nmap 7.95 scan initiated Mon Jun 23 19:27:13 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan-results.txt 192.168.31.0/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0043s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 54:3D:60:31:01:92 (Unknown)
+
+Nmap scan report for iPhone.lan (192.168.31.149)
+Host is up (0.011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: CA:2C:00:0C:36:A3 (Unknown)
+
+Nmap scan report for moto-g54-5G.lan (192.168.31.161)
+Host is up (0.016s latency).
+All 1000 scanned ports on moto-g54-5G.lan (192.168.31.161) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3A:FD:B5:AB:06:F4 (Unknown)
+
+Nmap scan report for I2012.lan (192.168.31.188)
+Host is up (0.0080s latency).
+All 1000 scanned ports on I2012.lan (192.168.31.188) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 2E:42:AF:21:4E:E6 (Unknown)
+
+Nmap scan report for SetTopBox-0436.lan (192.168.31.190)
+Host is up (0.0096s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: 34:D8:56:C8:9D:54 (Shenzhen Skyworth Digital  Technology)
+
+Nmap scan report for 192.168.31.200
+Host is up (0.0085s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: 10:C7:53:AE:0F:10 (Qingdao Intelligent&Precise Electronics)
+
+Nmap scan report for motorola-edge-50-fusion.lan (192.168.31.244)
+Host is up (0.015s latency).
+All 1000 scanned ports on motorola-edge-50-fusion.lan (192.168.31.244) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0E:63:49:C4:65:3E (Unknown)
+
+Nmap scan report for kali.lan (192.168.31.114)
+Host is up (0.0000010s latency).
+All 1000 scanned ports on kali.lan (192.168.31.114) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Jun 23 19:27:55 2025 -- 256 IP addresses (8 hosts up) scanned in 41.85 seconds
